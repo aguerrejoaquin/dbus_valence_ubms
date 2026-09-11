@@ -104,6 +104,7 @@ Edit, save, and exit
 Add rc.local file into /data folder. This rc.local file is called after each boot and run all that its inside. Be aware if you already have this file, it will be overwrite. In this case I suggest to edit and add the lines that are in the file to yours.
 after that, you can just reboot or call svc command to run the service.
 ```
+ cd
  cp dbus_valence_ubms/rc.local /data/rc.local
  svc -u /service/dbus-ubms.can0
 ```
